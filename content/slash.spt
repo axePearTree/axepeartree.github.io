@@ -1,0 +1,10 @@
+name,x,y,width,height,pivot_x,pivot_y
+MC_Attack_03_Sword - 1f,0,0,623,623,-120,0
+MC_Attack_04_Sword - 2f,623,0,623,623,-120,0
+MC_Attack_05_Sword - 1f,1246,0,623,623,-120,0
+MC_Attack_08_Sword - 1f,0,623,623,623,-120,0
+MC_Attack_09_Sword - 1f,623,623,623,623,-120,0
+MC_Attack_10_Sword - 2f,1246,623,623,623,-120,0
+MC_Attack_12_Sword - 1f,0,1246,623,623,-120,0
+MC_Attack_13_Sword - 2f,623,1246,623,623,-120,0
+MC_Attack_14_Sword - 1f,1246,1246,623,623,-120,0

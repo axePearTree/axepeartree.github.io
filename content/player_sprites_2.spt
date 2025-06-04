@@ -1,0 +1,19 @@
+name,x,y,width,height,pivot_x,pivot_y
+MC_Jumping - Start_01 - 1f,0,0,623,623,0,0
+MC_Jumping - Start_02 - 1f,623,0,623,623,0,0
+MC_Jumping_01 - 1f,1246,0,623,623,0,0
+MC_Jumping_02 - 1f,1869,0,623,623,0,0
+MC_Jumping_03 - 1f,2492,0,623,623,0,0
+MC_Jumping_04 - 2f,3115,0,623,623,0,0
+MC_Jumping_05 - 2f,0,623,623,623,0,0
+MC_Jumping_06 - 2f,623,623,623,623,0,0
+MC_Jumping_07 - 3f,1246,623,623,623,0,0
+MC_Jumping_08 - 3f,1869,623,623,623,0,0
+MC_Jumping_09 - 6f,2492,623,623,623,0,0
+MC_Jumping_10 - 1f,3115,623,623,623,0,0
+MC_Jumping_11 - C 2f,0,1246,623,623,0,0
+MC_Jumping_12 - C 2f,623,1246,623,623,0,0
+MC_Jumping_13 - C 2f,1246,1246,623,623,0,0
+MC_Jumping_14 - C 3f,1869,1246,623,623,0,0
+MC_Jumping_15 - C 1f,2492,1246,623,623,0,0
+MC_Jumping_16 - C 2f,3115,1246,623,623,0,0

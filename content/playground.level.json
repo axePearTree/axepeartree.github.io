@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Camera",
+        "active": true,
+        "position": [0.0, 0.0, 0.0],
+        "camera": {
+            "size": 8.0
+        }
+    },
+    {
+        "name": "Dummy",
+        "active": true,
+        "dummy": true,
+        "position": [5.0, 3.0, 0.0],
+        "hitbox": {
+            "length": 0.4,
+            "width": 0.25,
+            "height": 0.8,
+            "offset": [0.0, 0.4, 0.0]
+        },
+        "hitbox_color": [0.0, 1.0, 0.0, 1.0],
+        "sprite_renderer": "Dummy",
+        "animator": {
+            "name": "dummy_idle",
+            "one_shot": false
+        }
+    },
+    {
+        "name": "Player",
+        "active": true,
+        "position": [1.0, 2.0, 0.0],
+        "velocity": [0.0, 0.0, 0.0],
+        "gravity": 10.0,
+        "movespeed": 25.0,
+        "player": {
+            "attack_cooldown": 40,
+            "base_movespeed": 2.5,
+            "attack_movespeed_multiplier": 0.7
+        },
+        "hitbox": {
+            "length": 0.4,
+            "width": 0.25,
+            "height": 0.8,
+            "offset": [0.0, 0.4, 0.0]
+        },
+        "hitbox_color": [0.0, 1.0, 0.0, 1.0],
+        "sprite_renderer": "MC_00 - 3f",
+        "animator": {
+            "name": "player_idle",
+            "one_shot": false
+        },
+        "children": [
+            {
+                "name": "Shadow",
+                "active": true,
+                "position": [1.0, 0.0, 0.0],
+                "sprite_renderer": "shadow",
+                "draw_order_override": true,
+                "follower_xy": {
+                    "mask": [1.0, 1.0, 0.0],
+                    "offset": [0.08, 0.42, 0.0]
+                }
+            },
+            {
+                "name": "Slash 1",
+                "active": false,
+                "position": [0.0, 0.0, 0.0],
+                "sprite_renderer": "shadow",
+                "melee_attack_source": true,
+                "player_slash": 1,
+                "animator": {
+                    "name": "player_slash_1",
+                    "one_shot": true
+                },
+                "hitbox": {
+                    "length": 1.0,
+                    "width": 0.4,
+                    "height": 0.35,
+                    "offset": [0.3, 0.7, 0.3]
+                },
+                "face_parent": true,
+                "hitbox_color": [0.0, 1.0, 0.0, 1.0]
+            },
+            {
+                "name": "Slash 2",
+                "active": false,
+                "position": [0.0, 0.0, 0.0],
+                "sprite_renderer": "shadow",
+                "melee_attack_source": true,
+                "player_slash": 2,
+                "animator": {
+                    "name": "player_slash_2",
+                    "one_shot": true
+                },
+                "hitbox": {
+                    "length": 1.0,
+                    "width": 0.4,
+                    "height": 0.5,
+                    "offset": [0.4, 0.7, 0.3]
+                },
+                "face_parent": true,
+                "hitbox_color": [0.0, 1.0, 0.0, 1.0]
+            },
+            {
+                "name": "Slash 3",
+                "active": false,
+                "position": [0.0, 0.0, 0.0],
+                "sprite_renderer": "shadow",
+                "player_slash": 3,
+                "melee_attack_source": true,
+                "animator": {
+                    "name": "player_slash_3",
+                    "one_shot": true
+                },
+                "hitbox": {
+                    "length": 0.8,
+                    "width": 0.4,
+                    "height": 0.8,
+                    "offset": [0.5, 0.7, 0.3]
+                },
+                "face_parent": true,
+                "hitbox_color": [0.0, 1.0, 0.0, 1.0]
+            }
+        ]
+    }
+]

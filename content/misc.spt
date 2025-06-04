@@ -1,0 +1,9 @@
+name,x,y,width,height,pivot_x,pivot_y
+Dummy,0,0,450,450,0,0
+Dummy_Hit_05 - 2f,450,0,450,450,0,0
+Dummy_Hit_03 - 1f,900,0,450,450,0,0
+Dummy_Hit_01 - 1f,1350,0,450,450,0,0
+Dummy_Hit_06 - 3f,0,450,450,450,0,0
+Dummy_Hit_04 - 1f,450,450,450,450,0,0
+Dummy_Hit_02 - 1f,900,450,450,450,0,0
+shadow,1350,450,200,200,0,0
